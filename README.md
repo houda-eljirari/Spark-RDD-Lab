@@ -79,16 +79,30 @@ $env:MAVEN_OPTS = "--add-exports=java.base/sun.nio.ch=ALL-UNNAMED"
 
 ## Résultats obtenus
 
-### Exercice 1
+### Exercice 1 – Total par ville
 
-- Casablanca : 10 230
-- Rabat : 9 850
-- Marrakech : 7 760
+| Ville | Total |
+|---|---|
+| Casablanca | 10 230 |
+| Rabat | 9 850 |
+| Marrakech | 7 760 |
+
+### Exercice 1 – Total par ville et par année
+
+| Ville - Année | Total |
+|---|---|
+| Casablanca - 2025 | 7 850 |
+| Casablanca - 2026 | 2 380 |
+| Rabat - 2025 | 2 250 |
+| Rabat - 2026 | 7 600 |
+| Marrakech - 2025 | 7 200 |
+| Marrakech - 2026 | 560 |
 
 ### Exercice 2
 
 - Nombre total de requêtes : 5
-- Erreurs HTTP : 2
+- Erreurs HTTP : 2 (404 et 500)
 - Taux d'erreur : 40 %
-- Codes HTTP observés : 200, 302, 404 et 500.
+- Codes HTTP observés : 200 (×2), 302, 404 et 500.
+- Top 5 IP et top 5 ressources : chaque élément apparaît 1 fois dans l'échantillon.
 
